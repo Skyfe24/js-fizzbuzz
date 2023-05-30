@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(52, 233, 52);
+  color: white;
+}
+.container {
+  background-color: red;
+}
+img {
+  width: 100%;
+}
