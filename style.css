@@ -1,10 +1,59 @@
 body {
-  background-color: rgb(52, 233, 52);
+  background-color: rgb(30, 65, 1);
   color: white;
 }
 .container {
-  background-color: red;
+  background-color: rgb(13, 110, 253);
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
 }
 img {
   width: 100%;
+}
+
+.card1{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(241, 113, 235);
+  color:  white;
+  border-radius: 40%;
+  
+}
+.card2{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(77, 42, 3);
+  color:  white;
+  
+}
+.card3{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(5, 119, 52);
+  color:  white;
+  border-radius: 40%;
+  
+}
+.card4{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(61, 252, 3);
+  color:  white;
+  
+}
+.bg-primary{
+  height: 300px;
 }
